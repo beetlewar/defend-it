@@ -1,0 +1,14 @@
+﻿  Application.cpp
+  main.cpp
+  Generating Code...
+Application.obj : error LNK2019: unresolved external symbol _vkCreateInstance@12 referenced in function "private: void __thiscall Application::createInstance(void)" (?createInstance@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _vkDestroyInstance@8 referenced in function "private: void __thiscall Application::cleanup(void)" (?cleanup@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "private: void __thiscall Application::createInstance(void)" (?createInstance@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "private: void __thiscall Application::cleanup(void)" (?cleanup@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "private: void __thiscall Application::createInstance(void)" (?createInstance@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "private: void __thiscall Application::createInstance(void)" (?createInstance@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function "private: void __thiscall Application::cleanup(void)" (?cleanup@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "private: void __thiscall Application::mainLoop(void)" (?mainLoop@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "private: void __thiscall Application::mainLoop(void)" (?mainLoop@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _glfwGetRequiredInstanceExtensions referenced in function "private: void __thiscall Application::createInstance(void)" (?createInstance@Application@@AAEXXZ)
+C:\Users\beetl\github\defend-it\Debug\DefendIt.exe : fatal error LNK1120: 10 unresolved externals
